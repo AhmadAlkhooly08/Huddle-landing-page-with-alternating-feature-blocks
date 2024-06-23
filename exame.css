@@ -72,6 +72,7 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 .image .first{
     display: flex;
@@ -93,8 +94,8 @@ body{
     flex-wrap: wrap;
     width: 100%;
     height: 320px; 
+    margin-bottom: 300px;
 }
-
 .inside{
     display: flex;
     flex-direction: column;
@@ -103,54 +104,35 @@ body{
 .one img,.tow img,.three img{
     width: 300px;
 }
-.tow,.three{
-    background-color: #ffffff;
-    position: relative;
-    bottom: 380px;
-}
-.three{
-    position: relative;
-    bottom: 700px;
-    background-color: #f6fbff;
-}
-.svg{
-    background-color: #f6fbff;
-    z-index: -1;
-    position: relative;
-    top: 330px;
-    height: 200px;
-    width: 100%;
-}
-.bir{
-    position: absolute;
-    top: 160%;
-    z-index: -1;
-}
-.iki{
-    position: relative;
-    bottom: 360px;
-    z-index: -1;
-}
-.uc{
-    position: relative;
-    bottom: 420px;
-    z-index: -1;
-}
-.dort{
-    position: relative;
-    bottom: 690px;
-}
 .inside p{
     font-size: 13px;
     font-weight: 200;
     padding-top: 30px;
+}
+.one,.three{
+    background-color: #f6fbff;
+}
+.three{
+   position: relative;
+   bottom: 180px;
+}
+.bir{
+    position: relative;
+    top: 20px;
+    z-index: -1;
+    width: 100%;
+}
+.iki{
+    position: relative;
+    bottom: 400px;
+    z-index: -1;
 }
 .last{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 180px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .last h1{
     text-align: center;
@@ -167,6 +149,11 @@ body{
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
+}
+.sex{
+    position: relative;
+    top: 90px;
+    z-index: -1;
 }
 footer{
     display: flex;
@@ -285,5 +272,8 @@ footer{
     .right{
         position: relative;
         top: 380px
+    }
+    .bir,.iki,.dort,.five{
+        overflow: hidden;
     }
 }
