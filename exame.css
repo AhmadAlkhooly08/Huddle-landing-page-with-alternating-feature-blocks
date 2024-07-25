@@ -259,7 +259,7 @@ footer{
     background-color: #2dc7f8;
     background-size: auto;
 }
-@media all and (max-width:393px ){
+@media all and (max-width:450px ){
     body{
         display: flex;
         flex-direction: column;
@@ -271,17 +271,16 @@ footer{
     }
     .nav button{
         position: relative;
-        left: 160px;
+        left: 20px;
         font-size: 15px;
     }
     .nav img{
         width: 100px;
         position: relative;
-        left: 100px;
     }
     .interdoce{
         position: relative;
-        left: 170px;
+        left: 50px;
     }
     .interdoce h1{
         width: 300px;
@@ -298,13 +297,13 @@ footer{
     .img{
         width: 300px;
         position: relative;
-        left: 120px;
+        left: 20px;
     }
     .image{
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 253px;
+        left: 153px;
     }
     .one,.tow,.three{
         margin-bottom: 50px;
@@ -316,7 +315,7 @@ footer{
     }
     .last{
         position: relative;
-        left: 130px;
+        left: 7px;
         top: 150px;
         bottom: 100px;
         margin-bottom: 100px;
@@ -331,19 +330,21 @@ footer{
     .left{
         position: relative;
         bottom: 500px;
+        right: 120px;
     }
     .right{
         position: relative;
-        top: 320px
+        top: 320px;
+        right: 143px;
     }
     .compain{
         position: relative;
-        height: 1700px;
+        display: flex;
+        justify-content: center;
     }
     .one,.tow,.three{
         position: absolute;
         margin-bottom: 300px;
-
     }
     .one .inside{
         background-color: #f6fbff;
@@ -352,8 +353,8 @@ footer{
         flex-wrap: wrap;
     }
     .iki{
-        position: relative;
-        top: 1310px;
+        position: absolute;
+        top: 1553px;
     }
     .tow .inside{
         width: 300px;
@@ -370,14 +371,24 @@ footer{
     }
     .three{
         position: relative;
-        top: 1300px;
+        top: 1700px;
         width: 170%;
+        display: flex;
+        justify-content: center;
+    }
+    .bir{
+        position: absolute;
+        bottom: 60px;
     }
     .uc{
-        margin-top: 2160px;
+        position: absolute;
+        top: 2260px;
+    }
+    .one{
+        margin-top: 200px;
     }
     .tow{
-        margin-top: 750px;
+        margin-top: 980px;
     }
     .one .inside,.tow .inside{
         margin-top: 250px;
@@ -393,21 +404,21 @@ footer{
     .one .inside p{
         width: 210px;
         text-align: center;
-        margin-left: 210px;
+        margin-left: 230px;
     }
     .three .inside p{
         width: 280px;
         text-align: center;
-        margin-left: 190px;
+        margin-left: 60px;
     }
     .three img{
         position: relative;
         bottom: 250px;
     }
     .sex{
-        position: absolute;
-        top: 500%;
-        width: 170%;
+        position: relative;
+        top: 526%;
+        width: 140%;
     }
     .bir,.iki,.uc{
         width: 170%;
@@ -430,5 +441,23 @@ footer{
     }
     .renew h1{
         font-size: 58px;
+    }
+    .son{
+        position: relative;
+        bottom: 10px;
+    }
+}
+@media all and (max-width:376px ){
+    .sex{
+        position: absolute;
+        top: 635%;
+        width: 170%;
+    }
+}
+@media all and (max-width:415px ){
+    .sex{
+        position: absolute;
+        top: 526%;
+        width: 140%;
     }
 }
