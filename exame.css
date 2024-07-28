@@ -378,7 +378,7 @@ footer{
     }
     .bir{
         position: absolute;
-        bottom: 60px;
+        bottom: 100px;
     }
     .uc{
         position: absolute;
@@ -396,7 +396,7 @@ footer{
     .three .inside{
         position: relative;
         top: 290px;
-        width: 170%;
+        width: 180%;
         background-color: #f6fbff;
         text-align: center;
         flex-wrap: wrap;
@@ -448,13 +448,25 @@ footer{
     }
 }
 @media all and (max-width:376px ){
-    .sex{
+    .iki {
         position: absolute;
-        top: 635%;
-        width: 170%;
+        top: 1563px;
+    }
+    .bir {
+        position: relative;
+        bottom: 400px;
+    }
+    .nav button{
+        position: relative;
+        left: 30px;
+        font-size: 13px;
+    }
+    .nav img{
+        width: 100px;
+        position: relative;
     }
 }
-@media all and (max-width:415px ){
+@media all and (max-width:413px ){
     .sex{
         position: absolute;
         top: 526%;
