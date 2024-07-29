@@ -473,3 +473,35 @@ footer{
         width: 140%;
     }
 }
+@media all and (max-width:769px ){
+    .sex{
+        position: absolute;
+        top: 373%;
+        width: 140%;
+    }
+    .one{
+        margin-top: 200px;
+    }
+    .tow{
+        margin-bottom: 450px;
+    }
+    .three{
+        margin-top: 200px;
+    }
+    .bir {
+        position: relative;
+        top: 210px;
+    }
+    .iki{
+        position: relative;
+        bottom: 294px;
+    }
+    .uc{
+        position: absolute;
+        top: 1950px;   
+    }
+    .last{
+        position: relative;
+        bottom: 250px;
+    }
+}
