@@ -119,24 +119,30 @@ body{
 .one,.three{
     background-color: #f6fbff;
 }
+.one{
+    margin-top: 600px;
+}
+.tow{
+    margin-top: 500px;
+}
 .three{
    position: relative;
-   bottom: 500px;
+   bottom: 200px;
 }
 .bir{
-    position: relative;
-    top: 20px;
+    position: absolute;
+    bottom: 1830px;
     z-index: -1;
     width: 100%;
 }
 .iki{
     position: relative;
-    bottom: 400px;
+    bottom: 190px;
     z-index: -1;
 }
 .uc{
     position: relative;
-    bottom: 900px;
+    bottom: 640px;
     z-index: -1;
 }
 .last{
@@ -378,13 +384,14 @@ footer{
     }
     .bir{
         position: absolute;
-        bottom: 100px;
+        bottom: 1700px;
     }
     .uc{
         position: absolute;
         top: 2260px;
     }
     .one{
+        position: absolute;
         margin-top: 200px;
     }
     .tow{
@@ -416,7 +423,7 @@ footer{
         bottom: 250px;
     }
     .sex{
-        position: relative;
+        position: absolute;
         top: 526%;
         width: 140%;
     }
@@ -447,33 +454,90 @@ footer{
         bottom: 10px;
     }
 }
-@media all and (max-width:376px ){
-    .iki {
-        position: absolute;
-        top: 1563px;
+
+@media all and (min-width:815px ){
+    .nav button{
+        position: relative;
+        right: 50px;
+        font-size: 30px;
     }
-    .bir {
+    .nav img{
+        width: 200px;
+        position: relative;
+        left: 50px;
+    }
+    .interdoce h1{
+        position: relative;
+        left: 29px;
+        width: 400px;
+        line-height: 57px;
+    }
+    .interdoce{
+        position: relative;
+        left: 290px;
+    }
+    .interdoce p{
+        font-size: 33px;
+        line-height: 35px;
+        width: 500px;
+    }
+    .interdoce button{
+        width: 300px;
+        position: relative;
+        right: 250px;
+    }
+    .img{
+        width: 800px;
+        position: relative;
+        left: 20px;
+    }
+    .image{
+        margin-top: 210px;
+    }
+    .one{
+        height: 400px;
+        padding-top: 100px;
+    }
+    .son{
+        position: relative;
+        top: 50px;
+    }
+    .tow{
+        position: relative;
+        bottom: 170px;
+    }
+    .three{
+        height: 400px;
         position: relative;
         bottom: 400px;
     }
-    .nav button{
+    .iki{
         position: relative;
-        left: 30px;
-        font-size: 13px;
+        bottom: 393px;
     }
-    .nav img{
-        width: 100px;
+    .uc{
         position: relative;
+        bottom: 700px;
     }
-}
-@media all and (max-width:413px ){
+    .last{
+        position: relative;
+        bottom: 250px;
+    }
     .sex{
         position: absolute;
-        top: 526%;
-        width: 140%;
+        top: 315%;
     }
 }
-@media all and (max-width:769px ){
+@media all and (max-width:850px ){
+ 
+}
+/*
+@media all and (min-width:767px ) and (max-width:800px ){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .sex{
         position: absolute;
         top: 373%;
@@ -486,7 +550,7 @@ footer{
         margin-bottom: 450px;
     }
     .three{
-        margin-top: 200px;
+        margin-top: 40px;
     }
     .bir {
         position: relative;
@@ -494,7 +558,7 @@ footer{
     }
     .iki{
         position: relative;
-        bottom: 294px;
+        bottom: 254px;
     }
     .uc{
         position: absolute;
@@ -505,3 +569,4 @@ footer{
         bottom: 250px;
     }
 }
+*/
