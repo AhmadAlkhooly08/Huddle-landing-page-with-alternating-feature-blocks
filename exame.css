@@ -511,6 +511,10 @@ footer{
         position: relative;
         bottom: 400px;
     }
+    .inside p{
+        font-size: 25px;
+        width: 500px;
+    }
     .iki{
         position: relative;
         bottom: 393px;
