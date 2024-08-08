@@ -41,7 +41,7 @@ body{
     text-align:center;
 }
 .interdoce p{
-    font-size: 15px;
+    font-size: 20px;
     line-height: 22px;
     font-weight: 300;
     text-align:center;
@@ -112,7 +112,7 @@ body{
     width: 300px;
 }
 .inside p{
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 200;
     padding-top: 30px;
 }
@@ -455,56 +455,89 @@ footer{
     }
 }
 
-@media all and (min-width:815px ){
+@media only screen and (min-width:715px ) and (max-width:950px){
     .nav button{
         position: relative;
-        right: 50px;
-        font-size: 30px;
+        right: 300px;
+        font-size: 20px;
     }
     .nav img{
-        width: 200px;
+        width: 150px;
         position: relative;
-        left: 50px;
+        left: 0px;
     }
     .interdoce h1{
         position: relative;
-        left: 29px;
-        width: 400px;
+        left: 80px;
+        width: 300px;
         line-height: 57px;
-    }
-    .interdoce{
-        position: relative;
-        left: 290px;
     }
     .interdoce p{
         font-size: 33px;
         line-height: 35px;
-        width: 500px;
+        width: 400px;
+        position: relative;
+        left: 30px;
     }
     .interdoce button{
         width: 300px;
         position: relative;
-        right: 250px;
+        right: 160px;
     }
     .img{
-        width: 800px;
+        width: 400px;
         position: relative;
-        left: 20px;
+        right: 170px;
     }
     .image{
-        margin-top: 210px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: 160px;
+    }
+    .first{
+        padding-bottom: 20px;
     }
     .one{
-        height: 400px;
+        height: 530px;
         padding-top: 100px;
+    }
+    .one .inside p{
+        font-size: 18px;
+        width: 300px;
+    }
+    .one .inside{
+        position: relative;
+        bottom: 60px;
+        left: 30px;
+    }
+    .one img{
+        position: relative;
+        top: 220px;
+        right: 350px;
+        width: 200px;
+    }
+    .bir{
+        position: absolute;
+        bottom: 1890px;
     }
     .son{
         position: relative;
-        top: 50px;
+        top: 197px;
     }
     .tow{
         position: relative;
         bottom: 170px;
+        right: 200px;
+    }
+    .tow .inside p{
+        font-size: 18px;
+        flex-basis: 10px;
+    }
+    .tow .inside{
+        padding-top: 70px;
     }
     .three{
         height: 400px;
@@ -529,12 +562,39 @@ footer{
     }
     .sex{
         position: absolute;
-        top: 315%;
+        top: 450%;
     }
 }
-@media all and (max-width:850px ){
- 
-}
+/*
+@media all and (min-width:967px ){
+    .interdoce p{
+       width: 700px;
+       padding-bottom: 30px;
+       position: relative;
+       margin-left: 170px;
+    }
+    .interdoce h1{
+        width: 750px;
+        position: relative;
+        margin-left: 100px;
+    }
+    .one{
+        height: 150px;
+    }
+    .tow{
+        height: 10px;
+    }
+    .son{
+        position: relative;
+        top: 0px;
+        bottom: 1000px;
+    }
+    .sex{
+        position: absolute;
+        top:500%;
+    }
+}*/
+
 /*
 @media all and (min-width:767px ) and (max-width:800px ){
     body{
